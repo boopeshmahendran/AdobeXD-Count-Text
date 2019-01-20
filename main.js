@@ -2,18 +2,18 @@ const { Text } = require("scenegraph");
 const { alert, error } = require("./lib/dialogs");
 
 async function countText(selection) {
-    let wc, cc;
-
-    wc = cc = 0;
+    let wc = 0, cc = 0;
 
     let textLayersSelected = false;
 
     selection.items.forEach(node => {
         if (node instanceof Text) {
+            let text = node.text.trim();
+
             textLayersSelected = true;
 
-            wc += countWords(node.text);
-            cc += node.text.length;
+            wc += countWords(text);
+            cc += text.length;
         }
     });
 
@@ -23,11 +23,7 @@ async function countText(selection) {
         return ;
     }
 
-    await alert(
-        "Count Text",
-        `Word Count: ${wc}`,
-        `Character Count: ${cc}`
-    );
+    await alert("Count Text", `Word Count: ${wc}`, `Character Count: ${cc}`);
 }
 
 function countWords(str) {
