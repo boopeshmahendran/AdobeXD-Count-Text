@@ -8,7 +8,8 @@ An Adobe XD plugin for counting characters and words in text layers.
 
 ![Demo Gif](countTextDemo.gif)
 
-
+## Installation
+Download the <a href="countText.xdx" download>countText.xdx</a> and double-click to install it.
 
 ## Issues and Feature Requests
 
