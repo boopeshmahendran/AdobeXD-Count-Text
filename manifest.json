@@ -11,8 +11,8 @@
     "type" : "menu",
     "commandId" : "countText",
     "shortcut": {
-      "mac": "Cmd+Shift+C",
-      "win": "Ctrl+Shift+C"
+      "mac": "Cmd+Alt+C",
+      "win": "Ctrl+Alt+C"
     }
   } ],
   "version" : "1.0.0"
