@@ -21,7 +21,7 @@ async function countText(selection) {
     });
 
     // Handle error cases
-    if (!textLayersSelected) {
+    if (textLayersSelected === false) {
         await error("Count Text - Error", "No text layers selected");
         return ;
     }
@@ -35,7 +35,7 @@ async function countText(selection) {
  * @returns {Number} no of words in the string
  */
 function countWords(str) {
-    return str.trim().split(/\s+/).length;
+    return str.split(/\s+/).length;
 }
 
 module.exports.commands = {
