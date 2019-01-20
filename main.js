@@ -1,6 +1,7 @@
 const { Text } = require("scenegraph");
+const { alert } = require("./lib/dialogs");
 
-function countText(selection) {
+async function countText(selection) {
     let wc, cc;
 
     wc = cc = 0;
@@ -12,9 +13,11 @@ function countText(selection) {
         }
     });
 
-
-    console.log("Word Count: " + wc);
-    console.log("Character Count: " + cc);
+    await alert(
+        "Count Text",
+        `Word Count: ${wc}`,
+        `Character Count: ${cc}`
+    );
 }
 
 function countWords(str) {
