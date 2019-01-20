@@ -12,4 +12,4 @@ An Adobe XD plugin for counting characters and words in text layers.
 
 ## Issues and Feature Requests
 
-Feel free to open submit issues and/or feature requests through github issues.
+Feel free to submit issues and/or feature requests through github issues.
