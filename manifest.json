@@ -1,0 +1,19 @@
+{
+  "name" : "Count Text",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "A plugin for counting characters and words in text layers",
+  "id" : "ef5bbc03",
+  "uiEntryPoints" : [ {
+    "label" : "Count Text",
+    "type" : "menu",
+    "commandId" : "countText",
+    "shortcut": {
+      "mac": "Cmd+Shift+C",
+      "win": "Ctrl+Shift+C"
+    }
+  } ],
+  "version" : "1.0.0"
+}
