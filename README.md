@@ -9,7 +9,8 @@ An Adobe XD plugin for counting characters and words in text layers.
 ![Demo Gif](countTextDemo.gif)
 
 ## Installation
-Download the <a href="countText.xdx?raw=true" download>countText.xdx</a> and double-click to install it.
+1. Select `Plugins->Discover Plugins...` in Adobe XD and search for `Count Text` to install it. (or)
+2. Go to [releases](https://github.com/boopeshmahendran/AdobeXD-Count-Text/releases/) and download the latest release `.xdx` file and double-click to install it.
 
 ## Issues and Feature Requests
 
